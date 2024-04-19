@@ -173,6 +173,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    background-color: #000000;
 }
 footer ul{
     list-style-type: none;
