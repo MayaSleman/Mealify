@@ -148,6 +148,7 @@ input,textarea{
 .card{
     margin: 0 auto;
     margin-top: 30px;
+    position: relative;
 }
 .card1 i{
     background-color: #ce1212;
@@ -173,7 +174,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    background-color: #000000;
+   background-color: #000000;
 }
 footer ul{
     list-style-type: none;
@@ -254,6 +255,9 @@ footer a{
 .card:hover{
     scale: 1.1;
 }
+.card:hover .social-link{
+    visibility:visible;
+}
 .img-hov{
     position: relative;
 }
@@ -269,11 +273,32 @@ footer a{
     animation-name: text;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-
 }
 .img-hov img:hover{
     filter: brightness(0.5);
     cursor: pointer;
+}
+.social-link{
+    border-radius: 10px;
+    background-color:rgb(216, 213, 213);
+    opacity: 0.5;
+    width: max-content;
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    visibility: hidden;
+}
+.social-link a {
+  text-decoration: none;
+  padding-top: 5px;
+  color:black;
 }
 @keyframes text {
     from{
