@@ -419,6 +419,9 @@ to{
         width: 300px;
         margin:0 auto;
     }
+    .card:hover{
+        scale: 1.01;
+    }
 }
 @media (min-width: 200px) and (max-width: 320px){
     .hero img{
