@@ -168,7 +168,7 @@ input,textarea{
     font-size: 18px;
 }
 footer{
-    background: url(./assets/imgs/textured-metal-background.jpg);
+    background: url(../imgs/textured-metal-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
