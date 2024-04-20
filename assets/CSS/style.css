@@ -301,9 +301,6 @@ footer a{
   padding-top: 5px;
   color:black;
 }
-#click{
-    display: none;
-}
 @keyframes text {
     from{
         bottom: 0;
@@ -466,4 +463,8 @@ to{
         width: 250px;
     }
 }
-
+@media (min-width: 200px) and (max-width: 300px){
+.card1{
+    flex-wrap: wrap
+};
+}
